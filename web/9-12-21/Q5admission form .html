@@ -1,0 +1,118 @@
+<html>
+ 	<head>
+	      <link rel="stylesheet" type="text/css"href="mystylesheet.css">
+		<body style="background-color:aqua;border: 10px solid black;">
+ 			<h1 style="text-align:center;font-size:40px">ADMISSION FORM </h1>
+				<form>
+					<table border="0" align="center"cellspacing="20" border-spacing:30px>
+				            <tr>
+                                              <td><p>FIRST NAME:</td><td></td><td><input type="text" size="20" name="firstname" placeholder="Firstname" required></p></td><tr></br>
+                                              <td><p>LAST NAME:</td><td></td><td><input type="text" size="20" name="lastname"placeholder="Lastname" required></p></td></tr></br>
+                                              <tr>
+                                              <td><p>FATHER'S NAME:</td><td></td><td><input type="text" size="30" name="fathername"placeholder="Fathersname" required></p></td></tr></br>
+                                              <tr>
+                                              <td><p>MOTHER'S NAME:</td><td></td><td><input type="text" size="30" name="mothername"placeholder="Mother's name"required></p></td></tr></br>
+                                              <tr>
+                                             <td>ADDRESS:</td><td></td><td><textarea type="text" rows="5" cols="50" name="adresss"placeholder="Address" required></textarea></p><tr></br>
+
+
+
+                                             <tr>
+                                             <td>E-MAIL:</td><td></td><td><input type="email" size="20" name="email" placeholder="aaaaaa@gmail.com" required></p></td></tr></br>
+<tr>
+                                             <td>NUMBER:</td><td></td><td><input type="phone" size="20" name="phone" maxlength="10"placeholder="Number" required></p></td></tr></br>
+
+
+                                             <tr>
+                                             <td>DATE OF BIRTH:</td><td></td><td><input type="date" size="20" name="dateofbirth"required></p></td></tr></br>
+
+
+
+                                             <tr>
+					     <td><p>GENDER:</p></td>
+                                             <td></td><td>
+					     <input type="radio" name="gender" value="male"> Male<br>
+					     <input type="radio" name="gender" value="female"> Female<br>
+					     <input type="radio" name="gender" value="other"> Other</br></td>
+
+                                              </tr>
+
+
+                                              <tr>
+					      <td>DURATION OF COURSE:</td></td><td>
+						<td><select name="dropdown">
+						<option value="12month"selected> 12month</option>
+						<option value="6month"> 6month</option>
+						<option value="4month"> 4month</option>
+						<option value="2month"> 2month</option></td>
+						</select>
+
+						
+						<tr>
+						<td>HIGHEST EDUCATIONAL QUALIFCATION:</td></td><td>
+						<td><select name="dropdown">
+						<option value="POST"selected>POST GRADUATION</option>
+						<option value="GRADUATION">GRADUATION</option>
+						<option value="PRE">PLUS TWO </option>
+						<option value="10">10TH LEVEL</option></td>
+						</tr>
+                                                <tr>
+                                               <td>EDUCATIONAL QUALIFICATION:</td>
+                                               </tr>
+
+                                     <table border="1" align="center" border-spacing:30px>          
+                                              
+                                               <tr>
+                                               <td>QUALIFICATION</td>
+                                               <td>BOARD OF EXAMINATION</td>
+                                               <td>PERCENTAGE</td>
+                                               <td>YEAR OF PASSING</td>
+                                                </tr>
+                                            
+                                                <tr>
+                                                <td>SSLC</td>
+                                                <td><input type="text" name="board exam" size="20"required></td>
+     						<td><input type="text" name="percentage" size="20"required></td>
+                                                <td><input type="text" name="yearofpassing" size="20"required></td>
+						</tr>
+
+
+						<tr>
+						<td>HIGHER SECONDARY</td>
+						<td><input type="text" name="board exam" size="20"></td>
+						<td><input type="text" name="percentage" size="20"></td>
+                                                <td><input type="text" name="yearofpassing" size="20"></td>
+						</tr>
+                                             
+                                                <tr>
+						<td>DEGREE</td>
+						<td><input type="text" name="board exam" size="20"></td>
+						<td><input type="text" name="percentage" size="20"></td>
+                                                <td><input type="text" name="yearofpassing" size="20"></td>
+						</tr>
+                                   </table>
+                                      
+                                   <table border="0" align="center" cellspacing="20" border-spacing:30px>
+
+						<tr>
+						<td>SSLC CERTIFICATE:</td><td></td><td><input type="file"name="fileupload"accept="inamge/*"/></td></tr>
+                                                <tr>
+						<td>12TH CERTIFICATE(IF ANY):</td><td></td><td><input type="file"name="fileupload"accept="inamge/*"/>                                               </td></tr>         
+
+
+<tr>  <td>DEGREE (IF ANY):</td><td></td><td><input type="file"name="fileupload"accept="inamge/*"/></td>
+						</tr>
+
+						
+						<tr>
+						<td ></td><td><input type="submit"name="submit"value="Submit"/>
+						<input type="reset"name="reset"value="Reset"/>
+						<input type="button"name="ok"value="OK"/></td>
+						</tr>
+                                       </table>
+			  </form>
+
+		</body>
+	</head>
+</html>
+

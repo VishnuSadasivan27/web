@@ -1,0 +1,73 @@
+<html>
+ 	<head> <style>
+
+	              body{
+                             padding:20px;
+			     background-image:url("images/intro.jpg");
+                             background-repeat:round;
+                             background-attachment:fixed;
+	                  } 
+                
+                
+                 <link rel="stylesheet" type="text/css" href="external.css"/> 
+ 
+                   </style>
+		    <body style="background-color:aqua;border: 10px solid black;">
+ 			   <h1 style="text-align:center;font-size:40px">REGISTRATION FORM </h1>
+			   <form action="regis.php" method="POST">
+				<form>
+					<table border="0" align="center"cellspacing="20" border-spacing:30px>
+				                              <tr>
+                                                 <td><p>NAME:</td><td></td><td><input type="text" size="20" name="name" placeholder="Firstname" required></p></td><tr></br>
+											  
+                                              <tr>
+                                                <td>ADDRESS:</td><td></td><td><textarea type="text" rows="5" cols="50" name="address"placeholder="Address" required></textarea></p><tr></br>
+											 
+                                             <tr>
+                                                <td>E-MAIL:</td><td></td><td><input type="email" size="20" name="email" placeholder="aaaaaa@gmail.com" required></p></td></tr></br>
+											 
+											  <tr>
+                                               <td>PASSWORD:</td><td></td><td><input type="password" size="20" name="pwd" maxlength="10"placeholder="Number" required></p></td></tr></br>
+											 
+                                              <tr>
+                                                <td>NUMBER:</td><td></td><td><input type="text" size="20" name="number" maxlength="10"placeholder="Number" required></p></td></tr></br>
+											 
+                           
+											 <td><p>MODE OF DELIVARY:</p></td>
+																 <td></td><td>
+											     <input type="radio" name="dmode" value="canned"> CANNED WATER<br>
+											     <input type="radio" name="dmode" value="bottled">BOTTLED WATER<br>
+											 </td>
+
+                                              </tr>
+                                             <tr>
+                                                <td>QUANTITY:</td><td></td><td><input type="text" size="20" name="quantity" maxlength="10"placeholder="quantity" required></p></td></tr></br>
+
+											<tr>
+										      <td>PAYMENT:</td></td><td>
+											<td><select name="ptype">
+											    <option value="daily"selected>DAILY</option>
+											    <option value="weekly"> WEEKLY</option>
+											   <option value="monthly"> MONTHLY</option>
+											</select>
+				                        	</td>
+											
+											<tr>
+										       <td>PAYMENT METHOD:</td></td><td>
+											     <td><select name="pmode">
+											        <option value="cash" selected>CASH ON DELIVARY</option>
+											        <option value="online">ONLINE PAYMENT</option>
+											      </select>
+				                        	    </td>
+											
+											<tr>
+											   <td ></td><td><input type="submit" name="submit" value="submit"/>
+											</tr>
+                                                
+                                       </table>
+			  </form>
+
+		</body>
+	</head>
+</html>
+
