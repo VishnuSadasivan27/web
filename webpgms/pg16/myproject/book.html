@@ -1,0 +1,74 @@
+<html>
+ 	<head> <style>
+
+	              body{
+                             padding:20px;
+			     background-image:url("images/intro.jpg");
+                             background-repeat:round;
+                             background-attachment:fixed;
+	                  } 
+					  .txt{
+					  width:120%;
+					  height:5%;
+					  border:1px solid brown;
+					  border-radius:05px;
+					  padding:20px 15px 20px 15px;
+					  margin:10px 0px 15px 0px;
+					  }
+					  .text{
+					  width:70%;
+					  height:5%;
+					  border:1px solid brown;
+					  border-radius:05px;
+					  padding:20px 15px 20px 15px;
+					  margin:10px 0px 15px 0px;
+					  }
+                
+                
+                 <link rel="stylesheet" type="text/css" href="external.css"/> 
+ 
+            </style>
+					<body style="background-color:aqua;border: 10px solid black;">
+					   <h1 style="text-align:center;font-size:40px">BOOKING FORM </h1>
+					   <form action="book.php" method="POST">
+						<form>
+							<table border="0" align="center"cellspacing="20" border-spacing:30px>
+													
+													<tr>
+														 <td><p>DELIVARY MODE:</p></td>
+																			 <td></td><td>
+															 <input type="radio" name="dmode" value="canned"required> canned<br>
+															 <input type="radio" name="dmode" value="bottled"required>bottled<br>
+												   </tr>
+
+
+												    <tr>
+													  <td>PAYMENT TYPE:</td></td><td>
+													     <td><select class="txt"name="ptype"required>
+																<option value="daily"selected> DAILY</option>
+																<option value="weekly">WEEKLY</option>
+																<option value="montly"> MONTHLY</option>
+												        	</select>
+
+													
+													<tr>
+														<td>PAYMENT MODE</td></td><td>
+															<td><select class="txt"name="pmode" required>
+																	<option value="online"selected>ONLINE</option>
+																	<option value="cash">CASH ON DELIVARY</option>
+															    </select>		
+													</tr>
+												<tr>
+												 <tr>
+													 </tr>
+													 <tr>
+													 </tr>
+													   <td ></td><td></td><td><input type="submit" class="text"name="submit" value="submit"/>
+													</tr>
+                             </table>
+			        </form>
+
+		</body>
+	</head>
+</html>
+

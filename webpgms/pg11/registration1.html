@@ -1,0 +1,63 @@
+<html>
+ 	<head> <style>
+
+	              body{
+                             padding:20px;
+			     background-image:url("images/intro.jpg");
+                             background-repeat:round;
+                             background-attachment:fixed;
+	                  } 
+					  .txt{
+					  width:90%;
+					  height:5%;
+					  border:1px solid brown;
+					  border-radius:05px;
+					  padding:20px 15px 20px 15px;
+					  margin:10px 0px 15px 0px;
+					  }
+					  .text{
+					  width:50%;
+					  height:5%;
+					  border:1px solid brown;
+					  border-radius:05px;
+					  padding:20px 15px 20px 15px;
+					  margin:10px 0px 15px 0px;
+					  }
+					  
+					  
+                 <link rel="stylesheet" type="text/css" href="external.css"/> 
+ 
+            </style>
+					<body style="background-color:aqua;border: 10px solid black;">
+					   <h1 style="text-align:center;font-size:40px">REGISTRATION FORM </h1>
+					   <form action="regis.php" method="POST">
+							<table border="0" align="center"cellspacing="20" border-spacing:30px>
+													  <tr>
+														 <td><p>NAME:</td><td></td><td><input type="text" size="20" class="txt" name="name" placeholder="Firstname" required></p></td><tr></br>
+													  
+													  <tr>
+														<td>ADDRESS:</td><td></td><td><textarea type="text" rows="5" cols="50" class="txt" name="address"placeholder="Address" required></textarea></p><tr></br>
+													 
+													 <tr>
+														<td>E-MAIL:</td><td></td><td><input type="email" size="20" class="txt" name="email" placeholder="aaaaaa@gmail.com" required></p></td></tr></br>
+													 
+													  <tr>
+													   <td>PASSWORD:</td><td></td><td><input type="password" size="20" class="txt" name="pwd" maxlength="10"placeholder="Number" required></p></td></tr></br>
+													 
+													  <tr>
+														<td>NUMBER:</td><td></td><td><input type="text" size="20" class="txt" name="number" maxlength="10"placeholder="Number" required></p></td></tr></br>
+													 <tr>
+													 </tr>
+													 <tr>
+													 </tr>
+													<tr>
+													   <td ></td></td><td><td><input type="submit"  class="text" name="submit" value="submit"/>
+													</tr>
+                                                
+                             </table>
+			        </form>
+
+		</body>
+	</head>
+</html>
+
