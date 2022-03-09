@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	font-family:sans-sherif;
+}
+body
+{
+	text-align:center;
+	color:blue;
+	border-top:60px;
+	background-color:cyan;
+	margin-top:60px;
+	
+}
+p{
+	color:red;
+	font-size:20px;
+	
+}
+b{
+	color:green;
+	font-size:20px;
+}
+img{
+	width:500px;
+	height:300px;
+	margin-top:50px;
+	
+}
+
+
+	
